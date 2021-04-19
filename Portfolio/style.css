@@ -1,0 +1,95 @@
+
+    h1{
+        color:#1098E6;
+        margin-left: 30px;
+    }
+    
+    .hi{
+        background-color: #e0e717;
+    }
+    .games{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly
+
+    }
+    .game1{
+        display: flex;
+        background-color:#64656b
+    }
+    .game2{
+        display: flex;
+        background-color: #493B23
+    }
+    .game3{
+        display: flex;
+        background-color:#D269BE;
+    }
+    p,h2{
+        text-align: center;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        background-color: darkslateblue;
+    }
+    body{
+        background-color:#808080
+    }
+    .hi *{
+        border:solid
+    }
+    a:link{
+        color:rosybrown
+    }
+    a:visited{
+        color:teal
+    }
+    .game1{
+        position: relative;
+    }
+    .game1 p{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+    }
+    .game1:hover p{
+        opacity:1
+    }
+    .game1:hover img{
+        opacity:0.32
+    }
+    .game2 {
+       position: relative; 
+       
+    }
+    .game2 p{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+    };
+    .game2:hover p{
+        opacity:1
+    }
+    .game2:hover img{
+        opacity:0.32
+    }
+    .game3 {
+        position: relative; 
+        
+     }
+     .game3 p{
+         position:absolute;
+         top:50%;
+         left:50%;
+         transform:translate(-50%,-50%);
+     };
+     .game3:hover p{
+         opacity:1
+     }
+     .game3:hover img{
+         opacity:0.32
+     }
+    
